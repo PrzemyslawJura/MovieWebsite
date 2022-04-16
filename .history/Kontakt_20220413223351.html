@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>FilmoVe - bo kochamy kino!</title>
+        <meta name="description" content="Description"/>
+        <meta name="keywords" content="Keywords"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!--Links-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="fontello/css/fontello.css" rel="stylesheet" type="text/css">
+
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <header id="logo-header">
+            <div id="bar">
+
+                    <div id="left_bar">
+                        <div class="menu-btn" onclick="openNav()">
+                            <div class="menu-btn_burger" ></div>
+                        </div>
+                    </div>
+
+
+                    <div id="mid_bar">
+                        <h1><a href="index.html">Film<span style="color: brown; font-size: 38px;">0</span>ve</a></h1>
+                    </div>
+
+                <nav id="right_bar">
+                    <div id="right_barr">
+                        <a href="https://www.facebook.com/" target="blank"><i class="demo-icon icon-facebook"></i></a>
+                        <a href="https://www.youtube.com/" target="blank"><i class="demo-icon icon-youtube"></i></a>
+                        <a href="https://twitter.com/?lang=en" target="blank"><i class="demo-icon icon-twitter"></i></a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <!-- <i class="demo-icon icon-camera"></i> -->
+                <h3 id="sidenav1">Film<span style="color: brown; font-size: 45px;">0</span>ve</h3>
+                <h2 id="sidenav2" style="margin-bottom: 50px;">Bo kochamy kino!</h2>
+
+                <div class="option" id="sidenav3">
+                    <a href="index.html">Strona główna</a>
+
+                </div>
+                <div class="option" id="sidenav4">
+                    <a href="newsy.html">Newsy</a>
+
+                </div>
+                <div class="option" id="sidenav5">
+                    <a href="ranking.html">Ranking</a>
+
+                </div>
+                <div class="option" id="sidenav6">
+                    <a href="#">Sklep</a>
+
+                </div>
+                <div class="option" id="sidenav7">
+                    <a href="Kontakt.html">Kontakt</a>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <main >
+            <div id="container">
+
+                <div id="min_art">
+                    <section>
+                    <h1 id="h1_rankxy">Kontakt</h1>
+                    <div id="siatka_kon">
+                        <div id="kon1">
+                            <h3>Lokalizacja</h3>
+                            <h4>45-555 Opole</h4>
+                            <h4>Zmyślona 74/23</h4>
+                            <h4><b>Adres e-mail</b></h4>
+                            <h4>zmyslonyfilmove@ggmail.com</h4>
+                            <h4>zmyslony2filmove@ggmail.com</h4>
+                            <h3 style="margin-top: 60px; margin-bottom: 0px;">Podążaj za nami</h3>
+                            <a href="https://www.facebook.com/" target="blank"><i class="demo-icon icon-facebook"></i></a>
+                            <a href="https://www.youtube.com/" target="blank"><i class="demo-icon icon-youtube"></i></a>
+                            <a href="https://twitter.com/?lang=en" target="blank"><i class="demo-icon icon-twitter"></i></a>
+                            <h4 style="padding-left: 0;">&copy; 2022 Polityka prywatnosci</h4>
+                        </div>
+                        <div id="kon2">
+                            <h3>Formularz kontaktowy</h3>
+                            <form action="POST">
+                                <input  type="text" id="name" name="name" size="50" maxlength="30"  placeholder="Imie i nazwisko"/>
+                                <span class="komunikat"></span>
+                                <input  type="text" id="email" name="email" size="50" maxlength="30" placeholder="E-mail"/>
+                                <span class="komunikat"></span>
+                                <textarea id="message" name="message" placeholder="Opis"></textarea>
+                                <span class="komunikat"></span>
+                                <div id="submit">
+                                    <button type="submit" value="Wyślij">Wyślij</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <p></p>
+                    </section>
+
+                </div>
+
+            </div>
+        </main>
+
+        <footer >
+            &copy; 2022 Polityka prywatnosci
+        </footer>
+
+
+        <!--JavaScript-->
+        <script src="main.js"></script>
+
+        <script src="jquerymin.js"></script>
+        <script>
+            $(document).ready(function() {
+                //Walidacja email
+                $('#email').on('blur', function() {
+                    var input = $(this);
+                    var pattern = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    var is_email = pattern.test(input.val());
+                    if(is_email){
+                        input.removeClass("invalid").addClass("valid");
+                        input.next('.komunikat').text("Wprowadzono poprawny email.").removeClass("blad").addClass("ok");
+                    }
+                    else{
+                        input.removeClass("valid").addClass("invalid");
+                        input.next('.komunikat').text("Wprowadź poprawny email!").removeClass("ok").addClass("blad");
+                    }
+                });
+
+                //Po próbie wysłania formularza
+                    $('#submit button').click(function(event){
+                        var name = $('#name');
+                        var email = $('#email');
+                        var message = $('#message');
+
+                        if(name.hasClass('valid') && email.hasClass('valid') && message.hasClass('valid')){
+                            alert("Pomyślnie wysłano formularz.");
+                        }
+                        else {
+                            event.preventDefault();
+                            alert("Uzupełnij wszystkie pola!");
+                        }
+                    });
+            });
+            </script>
+
+
+    </body>
+
+</html>

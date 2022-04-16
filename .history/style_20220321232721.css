@@ -1,0 +1,16 @@
+body
+{
+    margin: 0px;
+}
+
+#bar
+{
+    background-color: black;
+    padding: 8px;
+}
+
+#logo
+{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+}

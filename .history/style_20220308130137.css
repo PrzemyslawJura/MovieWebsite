@@ -1,0 +1,71 @@
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header
+{
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+}
+
+
+nav
+{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 5 px;
+    text-align: center;
+}
+
+.nav_button
+{
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#log
+{
+    position: fixed;
+    right: 20%;
+    color: black;
+    margin: auto;
+
+}
+
+#log:hover
+{
+    color: rgba(255, 217, 0, 0.692);
+}
+
+#img_log
+{
+    position: fixed;
+    left: 20%;
+    top: auto;
+    bottom: auto;
+}
+
+.nav_button:hover
+{
+    color: gold;
+}

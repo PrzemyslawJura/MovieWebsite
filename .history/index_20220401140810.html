@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>FilmoVe - bo kochamy kino!</title>
+        <meta name="description" content="Description"/>
+        <meta name="keywords" content="Keywords"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!--Links-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="fontello/css/fontello.css" rel="stylesheet" type="text/css">
+        <!--------->
+
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!----------->
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet"> 
+        <!---------------->
+
+    </head>
+
+    <body>
+
+        <header id="logo-header">
+            <div id="bar">
+
+                    <div id="left_bar">
+                        <div class="menu-btn" onclick="openNav()">
+                            <div class="menu-btn_burger" ></div>
+                        </div>
+                    </div>
+
+
+                    <div id="mid_bar">
+                        <h1><a href="#">Film<span style="color: brown; font-size: 38px;">0</span>ve</a></h1>
+                    </div>
+
+                <nav id="right_bar">
+                    <div id="right_bar">
+                        <a href="https://www.facebook.com/" target="blank"><i class="demo-icon icon-facebook"></i></a>
+                        <a href="https://www.youtube.com/" target="blank"><i class="demo-icon icon-youtube"></i></a>
+                        <a href="https://twitter.com/?lang=en" target="blank"><i class="demo-icon icon-twitter"></i></a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <!-- <i class="demo-icon icon-camera"></i> -->
+                <h1>Film<span style="color: brown; font-size: 45px;">0</span>ve</h1>
+                <h2 style="margin-bottom: 50px;">Bo kochamy kino!</h2>
+
+                <div class="option">
+                    <a href="#">Newsy</a>
+                    <p>Bądź zawsze na bierząco</p>
+                </div>
+                <div class="option">
+                    <a href="#">Artykuły</a>
+                    <p>Pogadajmy o filmach, trochę dłużej</p>
+                </div>
+                <div class="option">
+                    <a href="#">Ranking</a>
+                    <p>Najlepsi z najlepszych</p>
+                </div>
+                <div class="option">
+                    <a href="#">Sklep</a>
+                    <p>Zobacz co mamy do zaoferowania</p>
+                </div>
+                <div class="option">
+                    <a href="#">Kontakt</a>
+                    <p>Trochę więcej na mój temat</p>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--JavaScript-->
+        <script src="main.js"></script>
+        <!-------------->
+
+        <main >
+            <div id="container">
+                <div id="legend1">
+                    <h2>Artykuły</h2>
+                </div>
+
+                <div id="main_news">
+                </div>
+
+                <div id="side_news-top">
+                </div>
+
+                <div id="side_news-bottom">
+                </div>
+
+                <div id="legend2">
+                    <h2>Newsy</h2>
+                </div>
+
+                <div id="ad">
+                </div>
+
+                <div id="news1" class="news">
+                        <div class="picture">
+
+                            <div class="main_news_img">
+                                <img class="main_news_img_img"  src="Images/batman.jpg" alt="Batman(2022)">
+                            </div>
+
+                        </div>
+
+                        <div class="content">
+                            <h4 class="news_title">Batman - godny następca mrocznego rycerza?</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ac libero suscipit bibendum.
+                            Donec in sollicitudin magna. Donec vitae magna id velit egestas placerat ac a risus. Pellentesque a convallis
+                            quam, id sollicitudin nulla. Vivamus aliquam felis at purus accumsan, non imperdiet odio posuere. Vestibulum
+                            eu feugiat eros. Duis auctor elit nec feugiat imperdiet. Nullam convallis malesuada sollicitudin. Nullam auctor
+                            odio diam, sagittis maximus leo tristique vel. Duis tincidunt suscipit ligula. Morbi accumsan id leo a vestibulum.
+                            Curabitur tortor nibh, porttitor sit amet efficitur non, dapibus sit amet mi. Pellentesque commodo ultricies tempus.
+                            Phasellus in magna nec eros vestibulum dapibus vitae ut orci. Cras vitae risus nec purus dignissim venenatis ac porttitor
+                            mi. Phasellus et accumsan felis.</p>
+                            <div class="btm">
+                                <h4 class="type">Filmy</h4>
+                                <h4 class="news_autor">Autor: Jan Kowalski</h4>
+                            </div>
+                        </div>
+                </div>
+
+                <div id="news2" class="news">
+                    <div class="picture">
+
+                        <div class="main_news_img">
+                            <img class="main_news_img_img"  src="Images/spiderman.jpg" alt="Batman(2022)">
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <h4 class="news_title">Batman - godny następca mrocznego rycerza?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ac libero suscipit bibendum.
+                        Donec in sollicitudin magna. Donec vitae magna id velit egestas placerat ac a risus. Pellentesque a convallis
+                        quam, id sollicitudin nulla. Vivamus aliquam felis at purus accumsan, non imperdiet odio posuere. Vestibulum
+                        eu feugiat eros. Duis auctor elit nec feugiat imperdiet. Nullam convallis malesuada sollicitudin. Nullam auctor
+                        odio diam, sagittis maximus leo tristique vel. Duis tincidunt suscipit ligula. Morbi accumsan id leo a vestibulum.
+                        Curabitur tortor nibh, porttitor sit amet efficitur non, dapibus sit amet mi. Pellentesque commodo ultricies tempus.
+                        Phasellus in magna nec eros vestibulum dapibus vitae ut orci. Cras vitae risus nec purus dignissim venenatis ac porttitor
+                        mi. Phasellus et accumsan felis.</p>
+                        <div class="btm">
+                            <h4 class="type">Filmy</h4>
+                            <h4 class="news_autor">Autor: Jan Kowalski</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="news3" class="news">
+                    <div class="picture">
+
+                        <div class="main_news_img">
+                            <img class="main_news_img_img"  src="Images/diuna.jpg" alt="Batman(2022)">
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <h4 class="news_title">Batman - godny następca mrocznego rycerza?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ac libero suscipit bibendum.
+                        Donec in sollicitudin magna. Donec vitae magna id velit egestas placerat ac a risus. Pellentesque a convallis
+                        quam, id sollicitudin nulla. Vivamus aliquam felis at purus accumsan, non imperdiet odio posuere. Vestibulum
+                        eu feugiat eros. Duis auctor elit nec feugiat imperdiet. Nullam convallis malesuada sollicitudin. Nullam auctor
+                        odio diam, sagittis maximus leo tristique vel. Duis tincidunt suscipit ligula. Morbi accumsan id leo a vestibulum.
+                        Curabitur tortor nibh, porttitor sit amet efficitur non, dapibus sit amet mi. Pellentesque commodo ultricies tempus.
+                        Phasellus in magna nec eros vestibulum dapibus vitae ut orci. Cras vitae risus nec purus dignissim venenatis ac porttitor
+                        mi. Phasellus et accumsan felis.</p>
+                        <div class="btm">
+                            <h4 class="type">Filmy</h4>
+                            <h4 class="news_autor">Autor: Jan Kowalski</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="news4" class="news">
+                    <div class="picture">
+
+                        <div class="main_news_img">
+                            <img class="main_news_img_img"  src="Images/thepowerofthedog.jpg" alt="Batman(2022)">
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <h4 class="news_title">Batman - godny następca mrocznego rycerza?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ac libero suscipit bibendum.
+                        Donec in sollicitudin magna. Donec vitae magna id velit egestas placerat ac a risus. Pellentesque a convallis
+                        quam, id sollicitudin nulla. Vivamus aliquam felis at purus accumsan, non imperdiet odio posuere. Vestibulum
+                        eu feugiat eros. Duis auctor elit nec feugiat imperdiet. Nullam convallis malesuada sollicitudin. Nullam auctor
+                        odio diam, sagittis maximus leo tristique vel. Duis tincidunt suscipit ligula. Morbi accumsan id leo a vestibulum.
+                        Curabitur tortor nibh, porttitor sit amet efficitur non, dapibus sit amet mi. Pellentesque commodo ultricies tempus.
+                        Phasellus in magna nec eros vestibulum dapibus vitae ut orci. Cras vitae risus nec purus dignissim venenatis ac porttitor
+                        mi. Phasellus et accumsan felis.</p>
+                        <div class="btm">
+                            <h4 class="type">Filmy</h4>
+                            <h4 class="news_autor">Autor: Jan Kowalski</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="news5" class="news">
+                    <div class="picture">
+
+                        <div class="main_news_img">
+                            <img class="main_news_img_img"  src="Images/batman.jpg" alt="Batman(2022)">
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <div class="top-neww">
+                        <h4 class="news_title">Batman - godny następca mrocznego rycerza?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor ac libero suscipit bibendum.
+                        Donec in sollicitudin magna. Donec vitae magna id velit egestas placerat ac a risus. Pellentesque a convallis
+                        quam, id sollicitudin nulla. Vivamus aliquam felis at purus accumsan, non imperdiet odio posuere. Vestibulum
+                        eu feugiat eros. Duis auctor elit nec feugiat imperdiet. Nullam convallis malesuada sollicitudin. Nullam auctor
+                        odio diam, sagittis maximus leo tristique vel. Duis tincidunt suscipit ligula. Morbi accumsan id leo a vestibulum.</p>
+                        </div>
+                        <div class="btm">
+                            <h4 class="type">Filmy</h4>
+                            <h4 class="news_autor">Autor: Jan Kowalski</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="news6" class="news">
+
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+        </footer>
+
+    </body>
+
+</html>

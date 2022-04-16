@@ -1,0 +1,18 @@
+body
+{
+    margin: 0px;
+}
+
+#bar
+{
+    background-color: black;
+    padding: 2px;
+}
+
+#logo
+{
+    font-family: 'Wire One', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
